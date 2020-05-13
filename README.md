@@ -10,9 +10,11 @@ Download the source and install vendor folder with composer.
 composer install
 ```
 
-Set your database in your .env file as an example:
+Set your database and your JWT_SECRET=secret in your .env file as an example:
+:
 ```
 DATABASE_URL=mysql://user:password@127.0.0.1:3306/db_name
+JWT_SECRET=secret
 ```
 Create your database:
 ```
